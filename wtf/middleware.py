@@ -1,6 +1,9 @@
 import time
 import logging
-import jwt  # pip install PyJWT
+
+import jwt
+from jwt import ExpiredSignatureError, InvalidTokenError
+# pip install PyJWT
 from http_objects import Response
 
 # ---------------------------------------
