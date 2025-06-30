@@ -1,3 +1,4 @@
-webob==1.8.9
-parse==1.20.2
-waitress==3.0.2
+typer==0.16.0
+uvicorn==0.35.0
+WebOb==1.8.9
+peewee==3.18.1 
